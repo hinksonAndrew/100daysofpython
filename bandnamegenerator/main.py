@@ -1,16 +1,11 @@
-# This is a sample Python script.
+#printing a welcome message to the user
+print("Welcome to the Band Name Generator.")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+#asking user for city they grew up in using input assigned to a variable to use later
+city = input("What's the name of the city you grew up in?\n")
 
+#asking user for pets name and assigning to a variable to use later
+pets_name = input("What's your pet's name?\n")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#printing a band name using the city and pet name they entered previously
+print("Your band name could be " + city + " " + pets_name)
