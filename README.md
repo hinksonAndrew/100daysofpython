@@ -3,3 +3,4 @@ I am learning to use python and will be uploading 100 days worth of projects. I 
 
 ## Projects
 * Day 1 - [Band Name Generator](bandnamegenerator/main.py) - Working with variables to manage data
+* Day 2 - [Tip Calculator](tipcalculator/main.py) - Understanding Data Types and how to manipulate strings
